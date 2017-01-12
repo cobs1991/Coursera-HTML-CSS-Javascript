@@ -1,23 +1,44 @@
 * {
+	font-family: Helvetica, sans-serif;
 	box-sizing: border-box;
 	margin: 0px;
 }
-
 h1 {
 	text-align: center;
+	font-size: 175%;
+	margin: 20px auto 20px auto;
 }
-
+h2 {
+	font-size: 125%;
+}
+.wrapper {
+	background-color: blue;
+}
 .section > h2 {
 	float: right;
-	border: 1px solid #999;;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #999;
 }
-
 .section > p {
 	clear: right;
+	padding: 10px;
 }
-
 .section {
-	width: 33%;
+	width: 31%;
 	float: left;
+	margin: 10px;
 	border: 1px solid #999;
+	background-color: #A9A9A9;
+}
+#chicken {
+	background-color:pink;
+}
+#beef {
+	background-color:red;
+}
+#sushi {
+	background-color:orange;
+}
+footer {
+	clear: left;
 }
