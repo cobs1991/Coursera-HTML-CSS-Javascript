@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.section > h2 {
+	float: right;
+	border: 1px solid #999;;
+}
+
+.section > p {
+	clear: right;
+}
+
+.section {
+	width: 33%;
+	float: left;
+	border: 1px solid #999;
+}
