@@ -23,13 +23,8 @@ h2 {
 	top: -1px;
 	border: 1px solid #000000;
 	border-bottom-left-radius: 5px;
-	/* How to move the h2 to the right using float rather than absolute or relative positioning as above
-	float: right;
-	margin: 0px;
-	padding: 5px 10px 5px 10px;*/
 }
 p {
-	/*clear: right;*/
 	padding: 10px;
 }
 .section {
@@ -72,3 +67,4 @@ p {
     width: 98%;
   }
 }
+/* Screen size of 767px or smaller will result in normal flow */
