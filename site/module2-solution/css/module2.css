@@ -11,7 +11,7 @@ h1 {
 .wrapper {
 	width: 100%;
 	padding: 3%;
-	background-color: blue;
+	/*background-color: blue;*/
 	overflow: auto;
 }
 h2 {
