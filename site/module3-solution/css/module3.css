@@ -1,0 +1,15 @@
+#header-nav {
+	background: blue;
+	  border-radius: 0;
+	  border: 0;
+}
+.navbar-header {
+	padding-bottom: 20px;
+}
+.navbar-brand h1{
+	margin: 0px;
+	text-transform: uppercase;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
