@@ -13,6 +13,8 @@
 .navbar-brand h1{
 	margin: 0px;
 	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -37,6 +39,10 @@
 body {
 	color: #001dff;
 	background-color: #b5b5b5;
+}
+h2 {
+	margin: 0px;
+	font-size: 300%;
 }
 #food-content {
 	background-color: #00b7f9;
