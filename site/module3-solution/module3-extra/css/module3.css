@@ -1,0 +1,53 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+/*** nav bar styles ***/
+#header-nav {
+	background: #001dff;
+	  border-radius: 0;
+	  border: 0;
+}
+.navbar-header {
+	padding-bottom: 20px;
+}
+.navbar-brand h1{
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.divider {
+	border-top: 1px solid #e7e7e7;
+	width: 80%;
+	margin: auto;
+}
+/*** extra small screen media querie ***/
+@media (max-width: 767px){
+	#collapsable-nav {
+		background-color: #0f04a0;
+	}
+	.row {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+} 
+/*** nav bar styling end ***/
+/*** main content start ***/
+body {
+	color: #001dff;
+	background-color: #b5b5b5;
+}
+h2 {
+	margin: 0px;
+	font-size: 300%;
+}
+#food-content {
+	background-color: #00b7f9;
+	margin: 15px auto 15px auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
